@@ -91,6 +91,10 @@ span {
   to {background-color: #f9b4ab;}
 }
 
+#nooutline {
+  -webkit-text-stroke: 0px #fc401e;
+}
+
 img.circle {
   display: none;
   width: 25%;
@@ -173,6 +177,10 @@ header img {
 }
 
 /* Work */
+
+.work-mobile {
+  display: none;
+}
 
 .flex-content {
   display: flex;
@@ -283,7 +291,7 @@ header img {
   header {
     padding: 1rem;
     width: 92%;
-    margin: 0;
+    margin: 0 0 3rem 0;
   }
 
   h2 {
@@ -301,6 +309,27 @@ header img {
 
   .header-media {
     display: none;
+  }
+
+  .work-mobile {
+    display: contents;
+  }
+
+  .flex-content {
+    display: none;
+  }
+
+  .media-container {
+    display: none;
+  }
+
+  .about-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-container span {
+    font-size: 2rem;
   }
 
 }
