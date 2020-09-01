@@ -44,7 +44,7 @@ nav {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0;
+  padding-top: 20px;
 }
 
 nav ul {
@@ -69,11 +69,11 @@ nav a:hover {
   color: #fc401e;
 }
 
-/* Header */
+/* Header landing page */
 
 header {
   display: inline-flex;
-  padding: 0 40px;
+  padding: 40px 40px;
   align-items: center;
   justify-content: center;
 }
@@ -83,7 +83,15 @@ header {
 }
 
 header a {
+  color: #f9b4ab;
+  -webkit-text-stroke: 0.3px #fc401e;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+header a:hover {
   color: #fc401e;
+  -webkit-text-stroke: none;
 }
 
 .header-media {
@@ -91,5 +99,26 @@ header a {
 }
 
 header img {
+  width: 100%;
+}
+
+/* Work */
+
+.flex-content {
+  display: flex;
+  padding: 30px;
+}
+
+.flex-row {
+  flex-direction: column;
+  width: 33%;
+  padding: 10px;
+}
+
+.flex-box {
+  margin: 10px 0;
+}
+
+.flex-box img {
   width: 100%;
 }
