@@ -13,7 +13,7 @@ body {
   background-color: #f9b4ab;
   margin: 0;
   font-size: 16px;
-  font-family: 'coolvetica', sans-serif;
+  font-family: 'Coolvetica', sans-serif;
   font-weight: bold;
   color: #264e70;
 }
@@ -50,7 +50,6 @@ p {
 /* Nav */
 
 nav {
-  border-bottom: 0px solid #000;
   width: 100%;
   display: inline-flex;
   align-items: center;
@@ -130,7 +129,7 @@ header img {
 .flex-box {
   margin-bottom: 30px;
   background-color: #ffc7bf;
-  padding: 15px;
+  padding: 0px;
 }
 
 .flex-box:hover {
