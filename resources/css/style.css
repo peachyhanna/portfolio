@@ -36,6 +36,17 @@ h3 {
   letter-spacing: 1px;
 }
 
+h4 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #fc401e;
+  letter-spacing: 1.5px;
+}
+
+p {
+  margin: 5px 0;
+}
+
 /* Nav */
 
 nav {
@@ -44,7 +55,7 @@ nav {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 nav ul {
@@ -111,14 +122,30 @@ header img {
 
 .flex-row {
   flex-direction: column;
-  width: 33%;
+  flex-basis: 50%;
   padding: 10px;
 }
 
 .flex-box {
-  margin: 10px 0;
+  margin-bottom: 30px;
+  background-color: #ffc7bf;
+  padding: 15px;
+}
+
+.flex-box:hover {
+  cursor: pointer;
 }
 
 .flex-box img {
   width: 100%;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.flex-box img:hover {
+  opacity: 0.8;
+}
+
+.box-text {
+  padding: 20px 10px 20px 20px;
 }
