@@ -1,0 +1,95 @@
+/*
+COLOURS
+
+pink #f9b4ab
+light yellow #fdebd3
+navy #264e70
+dark green #679186
+mint green #bbd4ce
+red #fc401e
+*/
+
+
+body {
+  background-color: #f9b4ab;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Coolvetica', sans-serif;
+  color: #264e70;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fc401e;
+  margin: 0;
+}
+
+h2 {
+  font-size: 5rem;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* Nav */
+
+nav {
+  border-bottom: 0px solid #000;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  padding: 0 40px;
+}
+
+nav a {
+  font-family: 'Coolvetica', sans-serif;
+  font-size: 1.5rem;
+  color: #264e70;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+nav a:hover {
+  color: #fc401e;
+}
+
+/* Header */
+
+header {
+  display: inline-flex;
+  padding: 0 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text {
+  width: 60%;
+}
+
+header a {
+  color: #fc401e;
+}
+
+.header-media {
+  width: 30%;
+}
+
+header img {
+  width: 100%;
+}
