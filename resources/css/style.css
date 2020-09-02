@@ -319,13 +319,23 @@ header img {
     display: none;
   }
 
+  .about-flex {
+    padding: 1.5rem;
+    justify-content: center;
+  }
+
   .media-container {
     display: none;
   }
 
   .about-container {
-    width: 100%;
+    width: 90%;
     margin: 0;
+  }
+
+  .about-container a {
+    font-size: 1.8rem;
+    font-weight: normal;
   }
 
   .about-container span {
