@@ -243,6 +243,8 @@ header img {
   color: #fc401e;
   transition-duration: 0.5s;
   transition-timing-function: ease;
+  font-size: 1.8rem;
+  font-weight: normal;
 }
 
 .about-container a:hover {
