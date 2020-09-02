@@ -282,6 +282,7 @@ header img {
 
   nav h1 {
     margin: 0rem;
+    animation-name: outline;
   }
 
   img.circle {
