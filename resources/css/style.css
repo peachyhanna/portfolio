@@ -101,6 +101,42 @@ img.circle {
   margin: 1rem auto;
 }
 
+li.clients {
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  display: inline;
+  padding: 0;
+  transition-duration: 0.5s;
+}
+
+a#clients {
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  display: inline;
+  padding: 0;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  font-size: 1.2rem;
+  color: #264e70;
+}
+
+a#clients:hover {
+  color: #fc401e;
+  text-decoration: none;
+}
+
+ul.clients {
+  padding: 0;
+  margin: 2px 0;
+  font-size: 1.2rem;
+}
+
+ul.clients:hover {
+  cursor: default;
+}
+
 /* Nav */
 
 nav {
@@ -343,6 +379,10 @@ header img {
 
   .about-container span {
     font-size: 2rem;
+  }
+
+  ul.clients {
+    font-size: 1.4rem;
   }
 
 }
