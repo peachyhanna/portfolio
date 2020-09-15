@@ -73,6 +73,15 @@ span {
   line-height: 1.3;
 }
 
+.flex-row a {
+  text-decoration: none;
+  color: #264e70;
+}
+
+.flex-row a:visited {
+  color: #264e70;
+}
+
 /* Font rules */
 
 .nolink {
@@ -281,11 +290,20 @@ header img {
 .media-container img {
   width: 100%;
   height: auto;
+  margin-bottom: 20px;
+}
+
+.media-container#work {
+  width: 60%;
 }
 
 .about-container {
   width: 40%;
   margin-left: 50px;
+}
+
+.about-container#work {
+  width: 40%;
 }
 
 .about-container a {
@@ -383,7 +401,7 @@ header img {
     justify-content: center;
   }
 
-  .media-container {
+  .media-container#about {
     display: none;
   }
 
